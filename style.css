@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 a,
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -737,6 +738,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    margin-bottom: 30px;
 }
 
 .portfolio-thumb {
@@ -890,6 +892,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
     .page-container {
         overflow-x: hidden;
         position: relative;
