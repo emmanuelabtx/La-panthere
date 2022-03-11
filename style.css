@@ -8,6 +8,10 @@ body {
     
 }
 
+ul {
+    list-style-type: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
