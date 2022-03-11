@@ -77,30 +77,24 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<h2><strong>Vous souhaitez être mis en relation avec nos experts ?</strong> </h2>
+				<form id="form_1" novalidate="" data-success-msg="Votre message a été envoyé." data-fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, Désolé pour le dérangement !">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
-					</div>
+						<label for="name">Nom</label>
+						<input id="name" class="form-control" placeholder="Votre Nom" required="">
+					<div class="help-block"></div></div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
+						<label for="email">Adresse email</label>
+						<input id="email" class="form-control" type="email" placeholder="Votre Email" required="">
+					<div class="help-block"></div></div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
+						<label for="source">Comment nous avez-vous connu ?</label>
+						<input id="source" class="form-control" type="text" placeholder="Votre source">
+					<div class="help-block"></div></div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea id="message" class="form-control" rows="4" cols="50" placeholder="Votre message" required=""></textarea>
+					<div class="help-block"></div></div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
